@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
 
         progreso.progress = porcentaje
     }
-
     fun validarNota(nota : Double): Boolean{
         return nota >=0 && nota <=5
     }
