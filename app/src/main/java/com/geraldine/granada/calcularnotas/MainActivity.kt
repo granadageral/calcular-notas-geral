@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var NotaFinal:TextView
     private lateinit var SiguienteEstudiante: Button
     //
+    //
     private var porcentajeAcumulado = 0
 
     val listaNotas: MutableList<Double> = mutableListOf() 
